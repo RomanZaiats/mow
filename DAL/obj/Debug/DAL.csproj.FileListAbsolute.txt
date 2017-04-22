@@ -1,0 +1,15 @@
+C:\Users\Romax\Documents\mow\DAL\bin\Debug\DAL.dll.config
+C:\Users\Romax\Documents\mow\DAL\bin\Debug\DAL.dll
+C:\Users\Romax\Documents\mow\DAL\bin\Debug\DAL.pdb
+C:\Users\Romax\Documents\mow\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+C:\Users\Romax\Documents\mow\DAL\obj\Debug\DAL.dll
+C:\Users\Romax\Documents\mow\DAL\obj\Debug\DAL.pdb
+C:\Users\Romax\Documents\DAL\bin\Debug\DAL.dll.config
+C:\Users\Romax\Documents\DAL\bin\Debug\DAL.dll
+C:\Users\Romax\Documents\DAL\bin\Debug\DAL.pdb
+C:\Users\Romax\Documents\DAL\bin\Debug\EntityFramework.dll
+C:\Users\Romax\Documents\DAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Romax\Documents\DAL\bin\Debug\EntityFramework.xml
+C:\Users\Romax\Documents\DAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Romax\Documents\DAL\obj\Debug\DAL.dll
+C:\Users\Romax\Documents\DAL\obj\Debug\DAL.pdb

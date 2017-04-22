@@ -1,10 +1,10 @@
-﻿@model MenuOnWebMVC.Models.ViewRecipe
+﻿@model MenuOnWebMVC.Models.RecipeAddModel
 
 @{
     ViewBag.Title = "Edit";
 }
 
-@using (Html.BeginForm("Edit", "Recipe", FormMethod.Post))
+@using (Html.BeginForm("Edit", "Recipe", FormMethod.Post, new { role = "form", enctype = "multipart/form-data" }))
 {
     @Html.AntiForgeryToken()
     
@@ -14,7 +14,6 @@
         @Html.ValidationSummary(true, "", new { @class = "text-danger" })
         @Html.HiddenFor(model => model.Id)
         @Html.HiddenFor(model => model.UserId)
-        @Html.HiddenFor(model => model.Likes);
 
         <div class="form-group">
             @Html.LabelFor(model => model.Name, htmlAttributes: new { @class = "control-label col-md-2" })
@@ -32,13 +31,14 @@
             </div>
         </div>
 
-        <div class="form-group">
-            @Html.LabelFor(model => model.ImageUrl, htmlAttributes: new { @class = "control-label col-md-2" })
-            <div class="col-md-10">
-                @Html.EditorFor(model => model.ImageUrl, new { htmlAttributes = new { @class = "form-control" } })
-                @Html.ValidationMessageFor(model => model.ImageUrl, "", new { @class = "text-danger" })
-            </div>
+        <div class="form-group row">
+            @Html.LabelFor(model => model.ImageFile)
+            <label class="col-md-6 input-group">
+                <input type="file" id="ImageFile" name="ImageFile" class="form-control">
+                <span class="input-group-addon">Browse</span>
+            </label>
         </div>
+
         <div class="form-group">
             @Html.LabelFor(model => model.IngridietsString, htmlAttributes: new { @class = "control-label col-md-2" })
             <div class="col-md-10">

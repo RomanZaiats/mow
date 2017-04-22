@@ -44,6 +44,10 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="DAL, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\DAL\bin\Debug\DAL.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
       <Private>True</Private>
@@ -177,8 +181,9 @@
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\CommentModel.cs" />
     <Compile Include="Models\IdentityModels.cs" />
-    <Compile Include="Models\LikesModel.cs" />
+    <Compile Include="Models\LikeModel.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
+    <Compile Include="Models\RecipeAddModel.cs" />
     <Compile Include="Models\UserModel.cs" />
     <Compile Include="Models\VerifyUserModel.cs" />
     <Compile Include="Models\ViewRecipe.cs" />
@@ -252,12 +257,6 @@
     <Content Include="packages.config" />
     <None Include="Project_Readme.html" />
     <Content Include="Scripts\jquery-1.10.2.min.map" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\..\DAL\DAL.csproj">
-      <Project>{e570fc4b-7685-488b-9211-6abe8a3c2dc9}</Project>
-      <Name>DAL</Name>
-    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

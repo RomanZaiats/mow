@@ -66,6 +66,5 @@ C:\Users\Romax\Documents\mow\MenuOnWebMVC\bin\Microsoft.Owin.Security.OAuth.xml
 C:\Users\Romax\Documents\mow\MenuOnWebMVC\bin\Microsoft.Owin.Security.Google.xml
 C:\Users\Romax\Documents\mow\MenuOnWebMVC\bin\Microsoft.Owin.Security.Twitter.xml
 C:\Users\Romax\Documents\mow\MenuOnWebMVC\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
-C:\Users\Romax\Documents\mow\MenuOnWebMVC\obj\Debug\MenuOnWebMVC.csprojResolveAssemblyReference.cache
 C:\Users\Romax\Documents\mow\MenuOnWebMVC\obj\Debug\MenuOnWebMVC.dll
 C:\Users\Romax\Documents\mow\MenuOnWebMVC\obj\Debug\MenuOnWebMVC.pdb

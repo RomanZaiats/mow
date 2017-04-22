@@ -8,6 +8,7 @@
     @foreach (ViewRecipe recipe in @ViewBag.Recipes)
     {
         <h2 >@recipe.Name</h2>
+        <img src="~/Content/images/thumbnails/@recipe.ImageUrl" alt="@recipe.Name">
         <p >@recipe.Likes</p>
         <p>@recipe.Text</p>
         <div>@Html.ActionLink("Читати ще", "Details", "Recipe", new { id = recipe.Id }, null)</div>
