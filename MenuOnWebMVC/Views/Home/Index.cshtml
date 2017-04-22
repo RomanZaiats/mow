@@ -1,0 +1,15 @@
+﻿@using MenuOnWebMVC.Models;
+@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="row">
+    <div>@Html.ActionLink("Створити рецепт", "Create", "Recipe")</div>
+    @foreach (ViewRecipe recipe in @ViewBag.Recipes)
+    {
+        <h2 >@recipe.Name</h2>
+        <p >@recipe.Likes</p>
+        <p>@recipe.Text</p>
+        <div>@Html.ActionLink("Читати ще", "Details", "Recipe", new { id = recipe.Id }, null)</div>
+    }
+</div>

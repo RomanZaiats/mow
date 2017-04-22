@@ -1,0 +1,30 @@
+﻿@using MenuOnWebMVC.Models
+@model MenuOnWebMVC.Models.ViewRecipe
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+<h2>@Html.DisplayFor(i => i.Name)</h2>
+<div class="row">
+    <p>@Model.Likes</p>
+    <p>@Model.Text</p>
+    Ingridients:
+    @foreach(var tag in Model.Tags)
+    {
+        <p>@tag</p>
+    }
+
+    Comments:
+    @foreach(CommentModel comment in ViewBag.Comments)
+    {
+        <p>@comment.AuthorLogin</p>
+        <p>@comment.CreateDate</p>
+        <p>@comment.Text</p>
+    }
+    <br>
+    <div>@Html.ActionLink("Видалити", "Delete", "Recipe", new { id = Model.Id }, null)</div>
+    <div>@Html.ActionLink("Редагувати", "Edit", "Recipe", new { id = Model.Id }, null)</div>
+</div>
+
+

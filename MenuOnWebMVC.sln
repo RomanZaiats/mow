@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MenuOnWebMVC", "MenuOnWebMVC\MenuOnWebMVC.csproj", "{0AEF1DD4-09A2-48AA-B120-0CF9FBBDFC28}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MenuOnWebMVC.Tests", "MenuOnWebMVC.Tests\MenuOnWebMVC.Tests.csproj", "{EA41A5FE-B2F8-4455-BAAF-8904E77844C6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL", "..\DAL\DAL.csproj", "{E570FC4B-7685-488B-9211-6ABE8A3C2DC9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0AEF1DD4-09A2-48AA-B120-0CF9FBBDFC28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0AEF1DD4-09A2-48AA-B120-0CF9FBBDFC28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0AEF1DD4-09A2-48AA-B120-0CF9FBBDFC28}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0AEF1DD4-09A2-48AA-B120-0CF9FBBDFC28}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA41A5FE-B2F8-4455-BAAF-8904E77844C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA41A5FE-B2F8-4455-BAAF-8904E77844C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA41A5FE-B2F8-4455-BAAF-8904E77844C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA41A5FE-B2F8-4455-BAAF-8904E77844C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E570FC4B-7685-488B-9211-6ABE8A3C2DC9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E570FC4B-7685-488B-9211-6ABE8A3C2DC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E570FC4B-7685-488B-9211-6ABE8A3C2DC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E570FC4B-7685-488B-9211-6ABE8A3C2DC9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
